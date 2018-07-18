@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lostRegister">
+<TextView
+    android:id="@+id/details"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enter details here"
+    android:textSize="20sp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/product"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:inputType="text"
+        android:layout_below="@id/details"
+        android:hint="Enter product name"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Category"
+        android:layout_below="@id/product"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"
+        android:textColor="#696969"/>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="164dp"
+        android:background="@drawable/border"
+        android:gravity="center_horizontal"
+        android:prompt="@string/app_name"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"/>
+
+</RelativeLayout>

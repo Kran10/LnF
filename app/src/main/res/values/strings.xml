@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name"></string>
+    <string-array name="categories">
+        <item>Select Categories</item>
+        <item>Mobile</item>
+        <item>Laptop</item>
+        <item>Vehicles</item>
+        <item>Documents</item>
+        </string-array>
+</resources>
